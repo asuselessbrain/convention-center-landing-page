@@ -11,7 +11,13 @@
       type="text/css"
     />
     <script src="https://cdn.tailwindcss.com"></script>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
   </head>
   <body class="mx-4">
     <!-- navbar -->
@@ -129,23 +135,226 @@
     </div>
     <!-- Every moment is Precious section -->
 
-    <section>
+    <section class="my-20">
       <div class="hero">
         <div class="hero-content gap-6 flex-col lg:flex-row">
-          <img
-            src="./images/image1.jpeg"
-            class="rounded-lg shadow-2xl"
-          />
+          <img src="./images/image1.jpeg" class="rounded-lg shadow-2xl" />
           <div>
             <h1 class="text-5xl font-bold">Every moment is Precious</h1>
-            <p class="py-6">Amet minim mollit non deserunt ullamco est sit aliqua dolor
-                20% off on next booking
-                do amet sint. Velit officia consequat duis enim velit mollit.
-                Exercitation veniam consequat sunt nostrud amet.
+            <p class="py-6">
+              Amet minim mollit non deserunt ullamco est sit aliqua dolor 20%
+              off on next booking do amet sint. Velit officia consequat duis
+              enim velit mollit. Exercitation veniam consequat sunt nostrud
+              amet.
             </p>
-            <button class="btn btn-primary">Explore our album <i class="fa-solid fa-arrow-right"></i></button>
+            <button class="btn btn-primary">
+              Explore our album <i class="fa-solid fa-arrow-right"></i>
+            </button>
           </div>
         </div>
+      </div>
+    </section>
+
+    <!-- Our package -->
+
+    <section>
+      <div>
+        <!-- card-1 -->
+        <div
+          class="w-full max-w-sm p-4 bg-white border border-gray-200 rounded-lg shadow sm:p-8 dark:bg-gray-800 dark:border-gray-700"
+        >
+          <h5 class="mb-4 text-xl font-medium text-gray-500 dark:text-gray-400">
+            Standard plan
+          </h5>
+          <div class="flex items-baseline text-gray-900 dark:text-white">
+            <span class="text-3xl font-semibold">$</span>
+            <span class="text-5xl font-extrabold tracking-tight">49</span>
+            <span
+              class="ms-1 text-xl font-normal text-gray-500 dark:text-gray-400"
+              >/month</span
+            >
+          </div>
+          <ul role="list" class="space-y-5 my-7">
+            <li class="flex items-center">
+              <svg
+                class="flex-shrink-0 w-4 h-4 text-blue-700 dark:text-blue-500"
+                aria-hidden="true"
+                xmlns="http://www.w3.org/2000/svg"
+                fill="currentColor"
+                viewBox="0 0 20 20"
+              >
+                <path
+                  d="M10 .5a9.5 9.5 0 1 0 9.5 9.5A9.51 9.51 0 0 0 10 .5Zm3.707 8.207-4 4a1 1 0 0 1-1.414 0l-2-2a1 1 0 0 1 1.414-1.414L9 10.586l3.293-3.293a1 1 0 0 1 1.414 1.414Z"
+                />
+              </svg>
+              <span
+                class="text-base font-normal leading-tight text-gray-500 dark:text-gray-400 ms-3"
+                >2 team members</span
+              >
+            </li>
+            <li class="flex">
+              <svg
+                class="flex-shrink-0 w-4 h-4 text-blue-700 dark:text-blue-500"
+                aria-hidden="true"
+                xmlns="http://www.w3.org/2000/svg"
+                fill="currentColor"
+                viewBox="0 0 20 20"
+              >
+                <path
+                  d="M10 .5a9.5 9.5 0 1 0 9.5 9.5A9.51 9.51 0 0 0 10 .5Zm3.707 8.207-4 4a1 1 0 0 1-1.414 0l-2-2a1 1 0 0 1 1.414-1.414L9 10.586l3.293-3.293a1 1 0 0 1 1.414 1.414Z"
+                />
+              </svg>
+              <span
+                class="text-base font-normal leading-tight text-gray-500 dark:text-gray-400 ms-3"
+                >20GB Cloud storage</span
+              >
+            </li>
+            <li class="flex">
+              <svg
+                class="flex-shrink-0 w-4 h-4 text-blue-700 dark:text-blue-500"
+                aria-hidden="true"
+                xmlns="http://www.w3.org/2000/svg"
+                fill="currentColor"
+                viewBox="0 0 20 20"
+              >
+                <path
+                  d="M10 .5a9.5 9.5 0 1 0 9.5 9.5A9.51 9.51 0 0 0 10 .5Zm3.707 8.207-4 4a1 1 0 0 1-1.414 0l-2-2a1 1 0 0 1 1.414-1.414L9 10.586l3.293-3.293a1 1 0 0 1 1.414 1.414Z"
+                />
+              </svg>
+              <span
+                class="text-base font-normal leading-tight text-gray-500 dark:text-gray-400 ms-3"
+                >Integration help</span
+              >
+            </li>
+            <li class="flex line-through decoration-gray-500">
+              <svg
+                class="flex-shrink-0 w-4 h-4 text-gray-400 dark:text-gray-500"
+                aria-hidden="true"
+                xmlns="http://www.w3.org/2000/svg"
+                fill="currentColor"
+                viewBox="0 0 20 20"
+              >
+                <path
+                  d="M10 .5a9.5 9.5 0 1 0 9.5 9.5A9.51 9.51 0 0 0 10 .5Zm3.707 8.207-4 4a1 1 0 0 1-1.414 0l-2-2a1 1 0 0 1 1.414-1.414L9 10.586l3.293-3.293a1 1 0 0 1 1.414 1.414Z"
+                />
+              </svg>
+              <span
+                class="text-base font-normal leading-tight text-gray-500 ms-3"
+                >Sketch Files</span
+              >
+            </li>
+            <li class="flex line-through decoration-gray-500">
+              <svg
+                class="flex-shrink-0 w-4 h-4 text-gray-400 dark:text-gray-500"
+                aria-hidden="true"
+                xmlns="http://www.w3.org/2000/svg"
+                fill="currentColor"
+                viewBox="0 0 20 20"
+              >
+                <path
+                  d="M10 .5a9.5 9.5 0 1 0 9.5 9.5A9.51 9.51 0 0 0 10 .5Zm3.707 8.207-4 4a1 1 0 0 1-1.414 0l-2-2a1 1 0 0 1 1.414-1.414L9 10.586l3.293-3.293a1 1 0 0 1 1.414 1.414Z"
+                />
+              </svg>
+              <span
+                class="text-base font-normal leading-tight text-gray-500 ms-3"
+                >API Access</span
+              >
+            </li>
+            <li class="flex line-through decoration-gray-500">
+              <svg
+                class="flex-shrink-0 w-4 h-4 text-gray-400 dark:text-gray-500"
+                aria-hidden="true"
+                xmlns="http://www.w3.org/2000/svg"
+                fill="currentColor"
+                viewBox="0 0 20 20"
+              >
+                <path
+                  d="M10 .5a9.5 9.5 0 1 0 9.5 9.5A9.51 9.51 0 0 0 10 .5Zm3.707 8.207-4 4a1 1 0 0 1-1.414 0l-2-2a1 1 0 0 1 1.414-1.414L9 10.586l3.293-3.293a1 1 0 0 1 1.414 1.414Z"
+                />
+              </svg>
+              <span
+                class="text-base font-normal leading-tight text-gray-500 ms-3"
+                >Complete documentation</span
+              >
+            </li>
+            <li class="flex line-through decoration-gray-500">
+              <svg
+                class="flex-shrink-0 w-4 h-4 text-gray-400 dark:text-gray-500"
+                aria-hidden="true"
+                xmlns="http://www.w3.org/2000/svg"
+                fill="currentColor"
+                viewBox="0 0 20 20"
+              >
+                <path
+                  d="M10 .5a9.5 9.5 0 1 0 9.5 9.5A9.51 9.51 0 0 0 10 .5Zm3.707 8.207-4 4a1 1 0 0 1-1.414 0l-2-2a1 1 0 0 1 1.414-1.414L9 10.586l3.293-3.293a1 1 0 0 1 1.414 1.414Z"
+                />
+              </svg>
+              <span
+                class="text-base font-normal leading-tight text-gray-500 ms-3"
+                >24×7 phone & email support</span
+              >
+            </li>
+          </ul>
+          <button
+            type="button"
+            class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-200 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-900 font-medium rounded-lg text-sm px-5 py-2.5 inline-flex justify-center w-full text-center"
+          >
+            Choose plan
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <!-- Frequently Asked Questions section -->
+    <section>
+      <h2 class="text-5xl font-bold text-center my-20">
+        Frequently Asked Questions
+      </h2>
+      <div class="flex gap-6 items-center">
+        <div class="flex-1">
+          <div class="collapse collapse-arrow bg-base-200">
+            <input type="radio" name="my-accordion-2" checked="checked" />
+            <div class="collapse-title text-xl font-medium">
+              What’s the difference between event design and event planning?
+            </div>
+            <div class="collapse-content">
+              <p>
+                Event design and event planning work hand in hand to deliver a
+                successful event.Events by Knight offer tailor made events. This
+                means we incorporate both event design and event planning to
+                create that perfect event.
+              </p>
+            </div>
+          </div>
+          <div class="collapse collapse-arrow bg-base-200">
+            <input type="radio" name="my-accordion-2" />
+            <div class="collapse-title text-xl font-medium">
+              How early do we need to start planning an event
+            </div>
+            <div class="collapse-content">
+              <p>hello</p>
+            </div>
+          </div>
+          <div class="collapse collapse-arrow bg-base-200">
+            <input type="radio" name="my-accordion-2" />
+            <div class="collapse-title text-xl font-medium">
+              How do you keep budgets on track?
+            </div>
+            <div class="collapse-content">
+              <p>hello</p>
+            </div>
+          </div>
+          <div class="collapse collapse-arrow bg-base-200">
+            <input type="radio" name="my-accordion-2" />
+            <div class="collapse-title text-xl font-medium">
+              How do you keep budgets on track?
+            </div>
+            <div class="collapse-content">
+              <p>hello</p>
+            </div>
+          </div>
+        </div>
+        <img class="flex-1 h-80" src="./images/frq-asked-ques.jpeg" alt="" />
       </div>
     </section>
   </body>
